@@ -17,16 +17,15 @@ class FirstActivity : AppCompatActivity() {
 
         val items = ArrayList<List>().apply {
             add(List(R.drawable.img))
+            add(List(R.drawable.img2))
             add(List(R.drawable.img))
+            add(List(R.drawable.img2))
             add(List(R.drawable.img))
+            add(List(R.drawable.img2))
             add(List(R.drawable.img))
+            add(List(R.drawable.img2))
             add(List(R.drawable.img))
-            add(List(R.drawable.img))
-            add(List(R.drawable.img))
-            add(List(R.drawable.img))
-            add(List(R.drawable.img))
-            add(List(R.drawable.img))
-            add(List(R.drawable.img))
+            add(List(R.drawable.img2))
         }
         firstAdapter = FirstAdapter(this)
         firstAdapter.setItems(items)

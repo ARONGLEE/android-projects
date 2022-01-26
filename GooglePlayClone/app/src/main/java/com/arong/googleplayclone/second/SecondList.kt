@@ -1,3 +1,5 @@
 package com.arong.googleplayclone.second
 
-class SecondList (val imageUrl: Int, val name: String?, val star: String?)
+import com.arong.googleplayclone.MainList
+
+class SecondList (val imageUrl: Int, val name: String?, val star: String?) : MainList

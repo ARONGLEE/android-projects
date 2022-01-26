@@ -18,15 +18,15 @@ class ThirdActivity: AppCompatActivity() {
         setContentView(R.layout.activity_third)
 
         val items = ArrayList<ThirdList>().apply{
-            add(ThirdList(R.drawable.img,"이스6온라인","롤플레잉","4.6"))
-            add(ThirdList(R.drawable.img2,"드래곤빌리지","롤플레잉","4.4"))
-            add(ThirdList(R.drawable.img3,"솔라 리바이","롤플레잉","4.7"))
-            add(ThirdList(R.drawable.img,"이스6온라인","롤플레잉","4.6"))
-            add(ThirdList(R.drawable.img2,"드래곤빌리지","롤플레잉","4.4"))
-            add(ThirdList(R.drawable.img3,"솔라 리바이","롤플레잉","4.7"))
-            add(ThirdList(R.drawable.img,"이스6온라인","롤플레잉","4.6"))
-            add(ThirdList(R.drawable.img2,"드래곤빌리지","롤플레잉","4.4"))
-            add(ThirdList(R.drawable.img3,"솔라 리바이","롤플레잉","4.7"))
+            add(ThirdList(R.drawable.img4,"이스6온라인","롤플레잉","4.6"))
+            add(ThirdList(R.drawable.img3,"드래곤빌리지","롤플레잉","4.4"))
+            add(ThirdList(R.drawable.img5,"솔라 리바이","롤플레잉","4.7"))
+            add(ThirdList(R.drawable.img4,"이스6온라인","롤플레잉","4.6"))
+            add(ThirdList(R.drawable.img3,"드래곤빌리지","롤플레잉","4.4"))
+            add(ThirdList(R.drawable.img5,"솔라 리바이","롤플레잉","4.7"))
+            add(ThirdList(R.drawable.img4,"이스6온라인","롤플레잉","4.6"))
+            add(ThirdList(R.drawable.img3,"드래곤빌리지","롤플레잉","4.4"))
+            add(ThirdList(R.drawable.img5,"솔라 리바이","롤플레잉","4.7"))
         }
 
         thirdAdapter = ThirdAdapter(this)

@@ -1,3 +1,5 @@
 package com.arong.googleplayclone.first
 
-class List (val imageUrl: Int)
+import com.arong.googleplayclone.MainList
+
+class List (val imageUrl: Int) : MainList

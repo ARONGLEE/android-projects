@@ -18,15 +18,15 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         val items = ArrayList<SecondList>().apply{
-            add(SecondList(R.drawable.img2,"이스6온라인","4.6"))
+            add(SecondList(R.drawable.img4,"이스6온라인","4.6"))
             add(SecondList(R.drawable.img3,"드래곤빌리지","4.4"))
-            add(SecondList(R.drawable.img4,"솔라 리바이","4.7"))
-            add(SecondList(R.drawable.img2,"이스6온라인","4.6"))
+            add(SecondList(R.drawable.img5,"솔라 리바이","4.7"))
+            add(SecondList(R.drawable.img4,"이스6온라인","4.6"))
             add(SecondList(R.drawable.img3,"드래곤빌리지","4.4"))
-            add(SecondList(R.drawable.img4,"솔라 리바이","4.7"))
-            add(SecondList(R.drawable.img2,"이스6온라인","4.6"))
+            add(SecondList(R.drawable.img5,"솔라 리바이","4.7"))
+            add(SecondList(R.drawable.img4,"이스6온라인","4.6"))
             add(SecondList(R.drawable.img3,"드래곤빌리지","4.4"))
-            add(SecondList(R.drawable.img4,"솔라 리바이","4.7"))
+            add(SecondList(R.drawable.img5,"솔라 리바이","4.7"))
         }
 
         secondAdapter = SecondAdapter(this)
