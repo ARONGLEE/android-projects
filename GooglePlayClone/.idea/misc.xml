@@ -11,7 +11,9 @@
         <entry key="app/src/main/res/layout/activity_third.xml" value="0.190625" />
         <entry key="app/src/main/res/layout/play_store.xml" value="0.25" />
         <entry key="app/src/main/res/layout/view_first_recycler.xml" value="0.3802083333333333" />
+        <entry key="app/src/main/res/layout/view_second_recycler.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/view_third_recycler.xml" value="0.190625" />
+        <entry key="app/src/main/res/menu/play_menu.xml" value="0.21875" />
       </map>
     </option>
   </component>

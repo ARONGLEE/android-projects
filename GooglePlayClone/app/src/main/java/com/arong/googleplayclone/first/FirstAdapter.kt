@@ -5,16 +5,16 @@ import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.arong.googleplayclone.MainList
 import com.arong.googleplayclone.R
 
 
 class FirstAdapter(private val context: Context) : RecyclerView.Adapter<FirstAdapter.FirstViewHolder>() {
-    private lateinit var mItems:ArrayList<List>
+        lateinit var mItems:ArrayList<List>
 
-    fun setItems(items : ArrayList<List>) {
+    fun setItems(items: ArrayList<List>) {
         mItems = items
     }
 

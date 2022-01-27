@@ -13,7 +13,7 @@ import com.arong.googleplayclone.R
 class SecondAdapter(private val context: Context) : RecyclerView.Adapter<SecondAdapter.SecondViewHolder>() {
     lateinit var mItems: ArrayList<SecondList>
 
-    fun setItems(items : ArrayList<SecondList>) {
+    open fun setItems(items : ArrayList<SecondList>) {
         mItems = items
     }
 
