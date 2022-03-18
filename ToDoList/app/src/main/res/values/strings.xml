@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="delete">선택항목 삭제</string>
+</resources>
