@@ -2,13 +2,15 @@ package com.arong.data.repository
 
 import android.app.Application
 import androidx.lifecycle.LiveData
+import com.arong.data.Mapper.map
 import com.arong.data.dao.TodoDao
 import com.arong.data.database.TodoDatabase
 import com.arong.data.model.Todo
+import com.arong.domain.model.TodoItem
+import com.arong.domain.repository.TodoRepository
 
 private const val DATABASE_NAME = "todo-database.db"
-class TodoRepository(application: Application) {
-
+class TodoRepositoryImpl(application: Application) : TodoRepository {
     private var mTodoDatabase: TodoDatabase
     private var mTodoDao: TodoDao
     private var mTodoItems: LiveData<MutableList<Todo>>
@@ -18,28 +20,26 @@ class TodoRepository(application: Application) {
         mTodoDao = mTodoDatabase.todoDao()
         mTodoItems = mTodoDao.list()
     }
-
-    fun list(): LiveData<MutableList<Todo>> {
+    override fun list(): LiveData<MutableList<TodoItem>> {
         return mTodoItems
     }
-
-    fun getTodo(id: Long): Todo {
+    override fun getTodo(id: Long): TodoItem {
         return mTodoDao.selectOne(id)
     }
 
     fun insert(todo: Todo) {
         Thread(
             Runnable {
-                mTodoDao.insert(todo)
+                mTodoDao.insert(todo.map())
             }
         ).start()
     }
 
     suspend fun update(todo: Todo) {
-        return mTodoDao.update(todo)
+        return mTodoDao.update(todo.map())
     }
 
-    fun delete(todo: Todo) {
-        return mTodoDao.delete(todo)
+    fun delete(TodoItem.map()) {
+        return mTodoDao.delete()
     }
 }
