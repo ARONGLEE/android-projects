@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_add
+id btn_save
+id cb_todo
+id menu_item_delete
+id rv_todo_list
+id tv_date
+id tv_todo
+id tv_todo_list
+layout activity_main
+layout activity_todo_list
+layout view_todo_list_item
+menu menu_option
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string delete
+style Theme.ToDoList

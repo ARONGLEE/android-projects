@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ay.lee/Desktop/projects/ToDoList/presentation/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_todo_list_item.xml",
+        "source": "/Users/ay.lee/Desktop/projects/ToDoList/presentation/src/main/res/layout/view_todo_list_item.xml"
+    },
+    {
+        "merged": "/Users/ay.lee/Desktop/projects/ToDoList/presentation/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ay.lee/Desktop/projects/ToDoList/presentation/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ay.lee/Desktop/projects/ToDoList/presentation/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_todo_list.xml",
+        "source": "/Users/ay.lee/Desktop/projects/ToDoList/presentation/src/main/res/layout/activity_todo_list.xml"
+    }
+]
